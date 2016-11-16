@@ -12,36 +12,35 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://openspaceobservatory.org"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.opensourceobservatory.org',
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "Open Space Observatory"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				Gatherings and infrastructure for the observation of satellites, spacecraft and space junk.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				open source, astronomy, satellites, observatory, meetup, space technology, space exploration
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "OSO"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "team@openspaceobservatory.org"
 
 			# Styles
 			styles: [
-				"/styles/twitter-bootstrap.css"
+				"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 				"/styles/style.css"
 			]
 
@@ -49,8 +48,7 @@ docpadConfig = {
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
-				"/scripts/script.js"
+				"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 			]
 
 
@@ -96,16 +94,9 @@ docpadConfig = {
 	# Plugins
 
 	plugins:
-		downloader:
-			downloads: [
-				{
-					name: 'Bootstrap'
-					path: 'src/files/vendor/twitter-bootstrap'
-					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
-					tarExtractClean: true
-				}
-			]
-
+	    ghpages:
+	        deployRemote: 'origin'
+        	deployBranch: 'master'
 
 	# =================================
 	# DocPad Events

@@ -3,18 +3,13 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
-
-/* THANKS */
-  Names (& URL):
+  Founder: Kei Kreutler
+  Site: http://keikreutler.cc
+  Twitter: http://twitter.com/keikreutler
 
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
 
 
 
