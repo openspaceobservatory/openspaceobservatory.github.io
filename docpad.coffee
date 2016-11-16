@@ -36,7 +36,7 @@ docpadConfig = {
 			author: "OSO"
 
 			# The website author's email
-			email: "team@openspaceobservatory.org"
+			email: "contact@openspaceobservatory.org"
 
 			# Styles
 			styles: [
