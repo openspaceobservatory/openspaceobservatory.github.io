@@ -1,9 +1,18 @@
-body { 
+/*body { 
   background: url('/images/ring.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}*/
+@import "mixins.less";
+
+body {
+	background: #000;
+	width: 100%;
+	height: 100%;
+	margin: -20px 0 0 0;
+	padding: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -11,14 +20,66 @@ h1,h2,h3,h4,h5,h6 {
 	color: #fff;
 }
 
-h1 {
-	font-size: 48px;
+
+// Vertical centering
+
+.parent-element {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
-p {
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-serif {
+	font-family: 'Rakkas', cursive;
+	font-size: 86px;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.header-2-serif {
+	font-family: 'Rakkas', cursive;
+	font-size: 48px;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	.small-viewport({
+		font-size: 38px;
+	});
+}
+
+.header-sans {
+	font-family: 'Lato', sans-serif;
+	font-size: 64px;
+	line-height: 58px;
+	color: #fff;
+	padding: 10px;
+	font-weight: 100;
+	.small-viewport({
+		font-size: 42px;
+		line-height: 44px;
+	});
+}
+
+img {
+	max-width: 100vw;
+}
+
+p, label, button, input {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
+	font-weight: 400;
 	color: #fff;
+}
+
+input {
+	border-radius: 5px;
 }
 
 a, a:hover, a:focus, a:active, a:visited {
@@ -27,24 +88,55 @@ a, a:hover, a:focus, a:active, a:visited {
 	text-decoration: none;
 }
 
+section {
+	background: #000;
+	margin: 0;
+	padding: 25px;
+	width: 100%;
+	height: 100vh;
+}
+
+section.camo {
+	background: url(/images/terra.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+section.oso {
+	background:url(/images/oso.gif) center bottom no-repeat fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
 .container {
-	display: block;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
-	width: 95%;
+	width: 100%;
 }
 
-.about {
-	position: fixed;
-	bottom: 25px;
-	left: 25px;
-	margin-right: 25px;
+.light {
+	background: #222;
 }
 
-.contact {
-	position: fixed;
-	top: 25px;
-	right: 25px;
-	margin-left: 25px;
-	text-align: right;
+.feature {
+	background: #222;
+	text-align: center;
+	padding: 50px 0;
+	h1,h2,h3,h4,h5,h6 {
+		margin: 0;
+	}
+}
+
+.logo {
+	width: 400px;
+	margin-bottom: 50px;
+	max-width: 80vw;
+}
+
+.btn {
+	background: #111;
 }

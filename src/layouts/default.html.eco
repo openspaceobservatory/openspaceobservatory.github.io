@@ -45,13 +45,7 @@
 </head>
 <body>
 
-	<!-- Content -->
-	<div class="container">
-		<!-- Content -->
-		<section id="content" class="content">
-			<%- @content %>
-		</section>
-	</div><!-- /container -->
+	<%- @content %>
 
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
