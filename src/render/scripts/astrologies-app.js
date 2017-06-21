@@ -13,7 +13,7 @@ var ProfileList = Backbone.Collection.extend({
 var satelliteDesc = {};
 
 var ModalView = Backbone.View.extend({
-    el: "#modals",
+    el: "#modals-astrology",
     template: _.template($('#participantModalTpl').html()),
     initialize: function(){
         this.listenTo(this.collection,"add", this.renderItem);          
@@ -42,9 +42,6 @@ modalList.fetch({
   error: function(){
   }
 });
-
-
-
 
 Trello.get("boards/5584244c0f4867e5cb41ee84/lists?cards=open", function(lists) {
   $.each(lists, function(ix, list) {

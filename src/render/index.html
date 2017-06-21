@@ -36,7 +36,6 @@ title: 'Home'
 </div>
 
 <section class="map-section screen-height">
-
 	<div class="header-sans overlay">
 		<span>
 		We map and catalogue background information on satellites overhead.
@@ -48,92 +47,36 @@ title: 'Home'
 		</div>
 	</div>
 
-	<div id="modals"></div>
-
-	<!-- Modals -->
-	<script id="participantModalTpl" type="text/template">
-	<div id="<%- id %>" class="modal fade">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h1><%- properties.Name %></h1>
-				<% if (properties.Image !== "") { %>
-					<img src="../images/satellites/<%= properties.Image %>">
-				<% } %>
-				</div>
-				<div class="modal-body">
-					<div class="row">
-						<div class="col-lg-8" id="<%- properties.Regex %>">
-
-						</div>
-						<div class="col-lg-4">
-							<p><strong>Type</strong><br>
-								<%- properties.Category %>
-							</p>
-							<p><strong>Owner</strong><br>
-							<%- properties.Owner %>
-							</p>
-							<p><strong>Launch Site</strong><br>
-								<%- properties["Launch Site"] %>
-							</p>
-							<p><strong>Launch Date</strong><br>
-								<%- properties["Launch Date"] %>
-							</p>
-							<p><strong>NORAD ID Number</strong><br>
-								<%- properties["NORAD ID number"] %>
-							</p>
-							<p><strong>Alternative Names</strong><br>
-								<%- properties["Alternative Names"] %>
-							</p>
-							<p><strong>Altitude</strong><br>
-								<%- properties["Altitude"] %>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</script>
-
 	</div>
 </section>
 
+<div id="modals"></div>
+
 <section class="screen-height">
 	<div class="header-sans link-white">
-		Working with the <a href="http://libre.space" target="_blank">Libre Space Foundation</a> and collaborators, the OSO embeds civic space technology in public settings.
+		Working with the <a href="http://libre.space" target="_blank">Libre Space Foundation</a> and collaborators, the OSO embeds civic space technology in public settings, with featured projects below.
 	</div>
-	<div class="container portholes">
+	<div class="container portholes link-white">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<img src="">
+				<img src="/images/satnogs.jpg">
 				<h4>SatNOGS</h4>
 				<p>
-					Resembling a Butterfly Chair, observers noted how the the famous design from 1938 seems to be strained and lopsided, nearly about to break.
-				</p>
-				<p>
-					Fanciful spectators noted that a figure too grown for this chair's fragile frame may be trying to sit. Such jests, followed by a series of memes featuring the popular manga character Akira trying to sit in a Butterfly Chair, eventually lead to the constellation being popularly known as Akira's Butterfly Chair.
+					Developed by the <a href="http://www.libre.space/" target="_blank">Libre Space Foundation</a>, the <a href="http://www.satnogs.org/" target="_blank">SatNOGS</a> project encompasses a full stack of open technologies based on open standards for satellite communications, from the SatNOGS ground station to an <a href="http://www.db.satnogs.org/" target="_blank">online platform</a> for satellite data.
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<img src="">
+				<img src="/images/gpa.jpg">
+				<h4>Global Ports Authority</h4>
+				<p>
+					As part of <a href="https://transmediale.de/content/re-examining-globalports" target="_blank">transmediale 2016</a>, in collaboration with the <a href="http://www.gpaworldports.org/" target="_blank">Global Ports Authority</a>, OSO hosted a <a href="http://ports.global/openports/openport7/" target="_blank">series of events</a> and off-site workshops around the theme of decolonizing speculative space narratives.
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<img src="/images/upsat.jpg">
 				<h4>UPSAT</h4>
 				<p>
-					Resembling a Butterfly Chair, observers noted how the the famous design from 1938 seems to be strained and lopsided, nearly about to break.
-				</p>
-				<p>
-					Fanciful spectators noted that a figure too grown for this chair's fragile frame may be trying to sit. Such jests, followed by a series of memes featuring the popular manga character Akira trying to sit in a Butterfly Chair, eventually lead to the constellation being popularly known as Akira's Butterfly Chair.
-				</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<img src="">
-				<h4>Global Port Authority</h4>
-				<p>
-					Resembling a Butterfly Chair, observers noted how the the famous design from 1938 seems to be strained and lopsided, nearly about to break.
-				</p>
-				<p>
-					Fanciful spectators noted that a figure too grown for this chair's fragile frame may be trying to sit. Such jests, followed by a series of memes featuring the popular manga character Akira trying to sit in a Butterfly Chair, eventually lead to the constellation being popularly known as Akira's Butterfly Chair.
+					<a href="https://upsat.gr" target="_blank">UPSat</a> is a 2U Cubesat satellite constructed and delivered by Libre Space Foundation, started by University of Patras as part of the QB50 mission with ID GR-02. UPSat mission is the first completely open source satellite ever launched.
 				</p>
 			</div>
 		</div>
@@ -142,11 +85,13 @@ title: 'Home'
 
 <section class="light screen-height">
 	<div class="header-sans link-white">
-		We propose a narrative understanding of satellites, through speculative fiction on machine constellations.
+		We propose speculative narratives of satellites and machine constellations.
 	</div>
-	<div class="container portholes">
+	<div class="container portholes link-white">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div id="map-astrology-1" class="map-astrologies">
+				</div>
 				<h4>
 					4 October 2014 7:28:00 GMT
 				</h4>
@@ -173,6 +118,8 @@ title: 'Home'
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div id="map-astrology-2" class="map-astrologies">
+				</div>
 				<h4>
 					26 June 2017 7:28:00 GMT
 				</h4>
@@ -198,6 +145,8 @@ title: 'Home'
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div id="map-astrology-3" class="map-astrologies">
+				</div>
 				<h4>
 					4 October 2017 7:28:00 GMT
 				</h4>
@@ -207,7 +156,7 @@ title: 'Home'
 				</h3>
 				<p>
 					<em>
-						Your description in the constellation wiki here.
+						Add your description in the <a href="https://github.com/openspaceobservatory/openspaceobservatory.github.io/wiki">constellation wiki here </a>.
 					</em>
 				</p>
 				<h3>
@@ -229,23 +178,30 @@ title: 'Home'
 	</div>
 </section>
 
-
-<section class="camo screen-height">
-	<div class="header-sans">
-	About
+<section class="camo screen-height about link-white">
+	<!--<div class="header-sans">
+	The OSO is a distributed project with a range of contributors.
 	</div>
+	<p>
+		With projects like Copenhagen Suborbitals and SatNOGS, the futures of satellites can be differently distributed. Drawing from traditions of the Chaldeans, Association of Autonomous Astronauts and astronomy clubs, OSO looks toward building a satellite skywatch and a way to come together—bringing out infrastructure for observation to distant fields and connecting unlikely locations. Initiated by <a href="http://keikreutler.cc" target="_blank">Kei Kreutler</a> in 2015, the initiative includes supporting the development of open source hardware and software for space observation and the design of a modular observatory.
+	</p>-->
 </section>
 
-<div class="feature">
+<div class="feature link-white">
 	<div class="header-2-serif">
 		Make Contact
 	</div>
+	<img class="logo" src="/images/logo.png">
 	<p>
-		A monthly chronicle of strange space weather and upcoming events from the Open Space Observatory.
+		To learn more about OSO or to contribute, check out our related resources <a href="https://github.com/openspaceobservatory/openspaceobservatory.github.io/wiki">wiki</a> on Github.
 	</p>
-
+	<p>
+		Follow us on Twitter <a href="http://twitter.com/osobservatory">@OSObservatory</a>.
+	</p>
+	<p>
+		To get involved, email us at <a href="mailto:contact@openspaceobservatory.org">contact@openspaceobservatory.org</a>.
+	</p>
 </div>
-
 
 <!-- Modals -->
 <script id="participantModalTpl" type="text/template">
@@ -293,3 +249,6 @@ title: 'Home'
 	</div>
 </div>
 </script>
+
+
+<div id="modals-astrology"></div>

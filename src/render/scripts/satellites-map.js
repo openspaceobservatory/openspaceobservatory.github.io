@@ -58,7 +58,7 @@ $.getJSON("/data/satellites.geojson", function(data) {
             });
         },
         onEachFeature: createPopUps
-        }).on('mouseover', function(e) {
+        }).on('click', function(e) {
             e.layer.openPopup();
         });
     });

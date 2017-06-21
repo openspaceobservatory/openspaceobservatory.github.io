@@ -1,6 +1,7 @@
+L.mapbox.accessToken = 'pk.eyJ1Ijoia2Vpa3JldXRsZXIiLCJhIjoiMWRKNGkwTSJ9.6fwMqvOqGXqAJeH-yF__DQ';
 var map1 = L.mapbox.map('map-astrology-1', '', {
     zoomControl: false,
-    minZoom: 2,
+    minZoom: 1,
     tileLayer: {
         // this map option disables world wrapping. by default, it is false.
         continuousWorld: false,
@@ -9,7 +10,7 @@ var map1 = L.mapbox.map('map-astrology-1', '', {
     }
 }).setView([ 40.094, 11.338], 1);
 
-var map2 = L.mapbox.map('map-astrology-2', '', {
+var map2 = L.mapbox.map('map-astrology-3', '', {
     zoomControl: false,
     minZoom: 1,
     tileLayer: {
@@ -34,7 +35,6 @@ var map3 = L.mapbox.map('map-astrology-3', '', {
 map1.scrollWheelZoom.disable();
 map2.scrollWheelZoom.disable();
 map3.scrollWheelZoom.disable();
-
 
 
 /******************
@@ -76,7 +76,7 @@ var constellation_jun262016 = L.polyline(emptyArray,
         smoothFactor: 10
     });
 
-var date_constellations = {"Sat Oct 04 00:00:00 GMT+01:00 2014": oct042014, "Sun Oct 04 00:00:00 GMT+01:00 2015": oct042015, "Fri Jun 26 00:00:00 GMT+01:00 2015": jun262015, "Sun Jun 26 00:00:00 GMT+01:00 2016": jun262016};
+var dates = {"Sat Oct 04 00:00:00 GMT+01:00 2014": oct042014, "Sun Oct 04 00:00:00 GMT+01:00 2015": oct042015, "Fri Jun 26 00:00:00 GMT+01:00 2015": jun262015, "Sun Jun 26 00:00:00 GMT+01:00 2016": jun262016};
 
 var constellations = {"Sat Oct 04 00:00:00 GMT+01:00 2014": constellation_oct042014, "Sun Oct 04 00:00:00 GMT+01:00 2015": constellation_oct042015, "Fri Jun 26 00:00:00 GMT+01:00 2015": constellation_jun262015, "Sun Jun 26 00:00:00 GMT+01:00 2016": constellation_jun262016}
 
@@ -148,23 +148,21 @@ $.getJSON("/data/satellites.geojson", function(data) {
             }
 
         },
-        onEachFeature: createAstroPopUps
+        onEachFeature: createPopUps
         }).on('click', function(e) {
             e.layer.openPopup();
         });
     });
 
-function createAstroPopUps(feature, featureLayer) {
-    /*featureLayer.bindPopup('<h1>' + feature.properties.Name + '</h1><p><a data-target="#' + feature.id +'" data-toggle="modal">INFLUENCE</a></p>');
-    dates[feature.properties.Date].addLayer(featureLayer);*/
+function createPopUps(feature, featureLayer) {
+    featureLayer.bindPopup('<a data-target="#' + feature.id +'" data-toggle="modal"><h1>' + feature.properties.Name + '</h1></a>');
+    dates[feature.properties.Date].addLayer(featureLayer);
 }
 
 constellations["Sun Oct 04 00:00:00 GMT+01:00 2015"].addLatLng([52.71, -65.18]);
 
-for(var key in date_constellations) {
-    date_constellations[key].addLayer(constellations[key]);
+for(var key in dates) {
+    dates[key].addLayer(constellations[key]);
 }
 
-oct042014.addTo(map1);
-jun262015.addTo(map2);
-oct042015.addTo(map3);
+jun262015.addTo(map1);
