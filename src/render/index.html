@@ -16,47 +16,165 @@ title: 'Home'
 	</div>
 </section>
 
-
-
 <div class="feature">
 	<div class="header-2-serif">
 		Join Our Newsletter
 	</div>
-				<p>
-				A monthly chronicle of strange space weather and upcoming events from the Open Space Observatory.
-			</p>
+	<p>
+		A monthly chronicle of strange space weather and upcoming events from the Open Space Observatory.
+	</p>
 	<img class="logo" src="/images/logo.png">
 
-		<form action="https://tinyletter.com/openspaceobservatory" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/openspaceobservatory', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+	<form action="https://tinyletter.com/openspaceobservatory" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/openspaceobservatory', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
 
-			<p>
-				<input type="text" style="width:140px" name="email" id="tlemail" />
-			</p>
-			<input type="hidden" value="1" name="embed"/>
-			<input class="btn button" type="submit" value="Subscribe" />
-		</form>
+		<p>
+			<input type="text" style="width:140px" name="email" id="tlemail" />
+		</p>
+		<input type="hidden" value="1" name="embed"/>
+		<input class="btn button" type="submit" value="Subscribe" />
+	</form>
 </div>
 
-<section class="light">
-	<div class="header-sans">
-	Info about satellites
+<section class="map-section">
+
+	<div class="header-sans overlay">
+		<span>
+		We map and catalogue background information on satellites overhead.
+		</span>
+	</div>
+
+	<div class="row">
+		<div id="map" class="satellites">
+		</div>
+	</div>
+
+	<div id="modals"></div>
+
+	<!-- Modals -->
+	<script id="participantModalTpl" type="text/template">
+	<div id="<%- id %>" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h1><%- properties.Name %></h1>
+				<% if (properties.Image !== "") { %>
+					<img src="../images/satellites/<%= properties.Image %>">
+				<% } %>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-lg-8" id="<%- properties.Regex %>">
+
+						</div>
+						<div class="col-lg-4">
+							<p><strong>Type</strong><br>
+								<%- properties.Category %>
+							</p>
+							<p><strong>Owner</strong><br>
+							<%- properties.Owner %>
+							</p>
+							<p><strong>Launch Site</strong><br>
+								<%- properties["Launch Site"] %>
+							</p>
+							<p><strong>Launch Date</strong><br>
+								<%- properties["Launch Date"] %>
+							</p>
+							<p><strong>NORAD ID Number</strong><br>
+								<%- properties["NORAD ID number"] %>
+							</p>
+							<p><strong>Alternative Names</strong><br>
+								<%- properties["Alternative Names"] %>
+							</p>
+							<p><strong>Altitude</strong><br>
+								<%- properties["Altitude"] %>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</script>
+
 	</div>
 </section>
 
 <section>
-	<div class="header-sans">
-	The OSO embeds civic space technology in public settings.
+	<div class="header-sans link-white">
+		Working with the <a href="http://libre.space" target="_blank">Libre Space Foundation</a> and collaborators, the OSO embeds civic space technology in public settings.
+	</div>
+	<div class="container portholes">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<img src="">
+				<h4>SatNOGS</h4>
+				<p>
+					Hello
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<img src="">
+				<h4>UPSAT</h4>
+				<p>
+					Hello
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<img src="">
+				<h4>Global Port Authority</h4>
+				<p>
+					Hello
+				</p>
+			</div>
+		</div>
 	</div>
 </section>
 
 <section class="light">
 	<div class="header-sans">
-	Fictions
+	We propose a narrative understanding of satellites, through speculative fiction on machine constellations.
+	</div>
+	<div class="container portholes">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<img src="">
+				<h4>Akira</h4>
+				<p>
+					Hello
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<img src="">
+				<h4>UPSAT</h4>
+				<p>
+					Hello
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<img src="/images/gpa.jpg">
+				<h4>Global Port Authority</h4>
+				<p>
+					Hello
+				</p>
+			</div>
+		</div>
 	</div>
 </section>
 
 <section class="camo">
 	<div class="header-sans">
-	Terra
+	About
 	</div>
 </section>
+
+
+<div class="feature">
+	<div class="header-2-serif">
+		Make Contact
+	</div>
+	<p>
+		A monthly chronicle of strange space weather and upcoming events from the Open Space Observatory.
+	</p>
+
+</div>

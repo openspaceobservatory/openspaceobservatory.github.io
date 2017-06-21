@@ -45,7 +45,7 @@ LOAD MAP DATA
 
 /*** ASSIGN MARKER TYPES ***/
 
-$.getJSON("http://www.keikreutler.cc/prox/data/satellites.geojson", function(data) {
+$.getJSON("/data/satellites.geojson", function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             return L.circleMarker(latlng, {
@@ -72,50 +72,3 @@ function createPopUps(feature, featureLayer) {
 
 
 jun262015.addTo(map);
-/*for (var key in categories) {
-    var value = categories[key];
-    value.addTo(map);
-};*/
-
-//L.control.layers(null, categories, {collapsed: false}).addTo(map);
-
-document.getElementById('jun262015').onclick = function() {
-    for (var key in dates) {
-        var value = dates[key];
-        map.removeLayer(value);
-    };
-    jun262015.addTo(map);
-}
-
-document.getElementById('jun262016').onclick = function() {
-    for (var key in dates) {
-        var value = dates[key];
-        map.removeLayer(value);
-    };
-    jun262016.addTo(map);
-}
-
-
-document.getElementById('oct042014').onclick = function() {
-    for (var key in dates) {
-        var value = dates[key];
-        map.removeLayer(value);
-    };
-    map.setView([54, 11], 3);
-    oct042014.addTo(map);
-}
-
-document.getElementById('oct042015').onclick = function() {
-    for (var key in dates) {
-        var value = dates[key];
-        map.removeLayer(value);
-    };
-    oct042015.addTo(map);
-}
-
-$(window).load(function(){
-    $("#filters div").click(function() {
-        $('div').removeClass('active');
-        $(this).addClass("active");
-    });
-});

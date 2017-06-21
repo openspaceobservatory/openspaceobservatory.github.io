@@ -1,0 +1,492 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif
+}
+
+a,
+a:visited {
+    color: #000 !important;
+    text-decoration: none
+}
+
+a:hover,
+a:active {
+    color: #000 !important;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0
+}
+
+.navbar .navbar-nav {
+    width: 100%
+}
+
+.navbar .navbar-nav .container {
+    width: 100%
+}
+
+.navbar .navbar-nav .container .col-sm-2 {
+    padding: 25px 0;
+    text-align: center
+}
+
+.navbar .navbar-nav .container .col-sm-2 img {
+    height: 35px
+}
+
+.navbar .navbar-nav .container .col-sm-2 a {
+    font-family: 'Rakkas';
+    text-transform: uppercase;
+    font-size: 20px
+}
+
+#main-nav {
+    background: url('/images/banner_light.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none
+}
+
+.navbar-inverse {
+    margin: 0;
+    border: none;
+    background: #000;
+    height: 50px
+}
+
+.navbar-inverse .navbar-nav {
+    width: 100%;
+    height: 100%;
+    margin: 0
+}
+
+.navbar-inverse .container {
+    height: 100%;
+    width: 100%
+}
+
+.navbar-inverse .row {
+    height: 50px
+}
+
+.navbar-inverse a {
+    color: #FFF !important;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    font-size: 12px
+}
+
+.navbar-inverse .col-sm-3 {
+    text-align: center;
+    padding-top: 15px;
+    height: 100%;
+    margin: 0
+}
+
+.navbar-inverse .col-sm-4 {
+    text-align: center;
+    padding-top: 15px;
+    height: 100%;
+    margin: 0
+}
+
+.navbar-inverse .col-sm-2 {
+    text-align: center;
+    padding: 15px 0 0 0 !important;
+    height: 100% !important;
+    margin: 0 !important
+}
+
+.navbar-inverse .col-sm-2 a {
+    font-family: 'Lato' !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important
+}
+
+.post {
+    padding: 25px 0;
+    margin-bottom: 60px
+}
+
+.post a {
+    color: #777 !important;
+}
+
+.post h2,
+.post h4 {
+    text-align: center
+}
+
+.post h2 a,
+.post h4 a {
+    color: #000 !important;
+}
+
+.post img {
+    display: block;
+    margin: 40px auto;
+    max-width: 85%
+}
+
+.post iframe {
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    width: 85%
+}
+
+.post p {
+    margin: 25px auto
+}
+
+.post blockquote p {
+    margin: 5px auto
+}
+
+.horoscope p {
+    text-align: center
+}
+
+.index p {
+    text-align: center
+}
+
+.index img {
+    display: block;
+    margin: 0 auto;
+    max-width: 350px
+}
+
+.index h1,
+.index h2,
+.index h3,
+.index h4,
+.index h5,
+.index h6 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px
+}
+
+.about p {
+    text-align: center
+}
+
+.about img {
+    display: block;
+    margin: 50px auto !important;
+    max-width: 150px !important
+}
+
+.about h1,
+.about h2,
+.about h3,
+.about h4,
+.about h5,
+.about h6 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px
+}
+
+.post-icon {
+    display: block;
+    max-height: 75px;
+    max-width: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 25px auto
+}
+
+.hero-unit {
+    margin-left: 100px
+}
+
+blockquote p {
+    font-size: 14px;
+    line-height: 20px
+}
+
+.caption {
+    font-size: 12px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 40px
+}
+
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 40px;
+    width: 150%;
+    overflow: hidden;
+    height: 100%;
+    background: #FFF;
+    color: #000;
+    font-family: 'Rakkas', sans-serif;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px;
+    z-index: 5000;
+    -moz-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 0 0;
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3)
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0
+}
+
+.menu ul li {
+    display: inline
+}
+
+.menu ul li a {
+    padding: 0.2em 1em
+}
+
+.row {
+    margin: 0
+}
+
+#map {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px
+}
+
+#map .leaflet-bar,
+#map .leaflet-control-layers {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    border: 0px;
+    border-color: rgba(0, 0, 0, 0) !important;
+    opacity: .9
+}
+
+#map .leaflet-bar label,
+#map .leaflet-control-layers label {
+    font-weight: 600;
+    opacity: 1
+}
+
+#map .leaflet-bar label span,
+#map .leaflet-control-layers label span {
+    opacity: .8
+}
+
+#map .leaflet-popup-content-wrapper {
+    max-width: 200px;
+    padding: 0
+}
+
+#map .leaflet-popup-content {
+    padding: 0 0 10px 0
+}
+
+#map .leaflet-popup-content h1 {
+    background: #000;
+    color: #FFF !important;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center
+}
+
+#map .leaflet-popup-content h3 {
+    text-align: center;
+    margin: 15px 0 0 0
+}
+
+#map .leaflet-popup-content p {
+    padding: 0px 10px;
+    margin: 5px 0;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center
+}
+
+.satellites {
+    height: 100vh
+}
+
+.astrologies {
+    height: 80vh
+}
+
+.astrologies .leaflet-bottom {
+    opacity: 0
+}
+
+.astrologies h1 {
+    font-size: 14px
+}
+
+.shadow {
+    -moz-box-shadow: 0 1px 2px 3px #ccc;
+    -webkit-box-shadow: 0 1px 5px 3px #ccc;
+    box-shadow: 0 1px 3px 1px #ccc
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Rakkas', sans-serif;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 40px
+}
+
+#map h1 {
+    font-size: 18px;
+    margin: 0
+}
+
+#map a {
+    color: #000 !important;
+}
+
+.active {
+    background: #FFF !important;
+}
+
+.active a {
+    color: #000 !important;
+}
+
+#filters {
+    cursor: pointer
+}
+
+.fullscreen {
+    width: 100%;
+    height: 100vh !important
+}
+
+.feed {
+    margin: 350px 0 100px 0;
+    z-index: 100
+}
+
+.feed h3,
+.feed h4 {
+    margin-bottom: 0
+}
+
+.feed img {
+    max-height: 50px
+}
+
+.feed hr {
+    margin: 0
+}
+
+#animate {
+    visibility: hidden
+}
+
+.modal-dialog {
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    border-radius: 0
+}
+
+.modal-dialog img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px
+}
+
+.modal-content {
+    min-height: 100vh;
+    border: none;
+    border-radius: 0
+}
+
+.modal-content h1,
+.modal-content h2,
+.modal-content h3,
+.modal-content h4,
+.modal-content h5,
+.modal-content h6 {
+    text-align: center
+}
+
+.modal-content .col-lg-4 p {
+    font-size: 12px
+}
+
+.modal-header {
+    border: none
+}
+
+@media screen and (max-width:1000px) {
+    .post {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%
+    }
+    .feed h3,
+    .feed h4 {
+        text-align: center;
+        margin-bottom: 20px
+    }
+}
+
+@media screen and (max-width:400px) {
+    .menu {
+        opacity: .2
+    }
+    footer {
+        font-size: 12px;
+        padding: 10px;
+        white-space: wrap
+    }
+    .feed {
+        margin: 300px 0 0px 0;
+        z-index: 100
+    }
+}
+
+.leaflet-left {
+	top: auto !important;
+	left: 10px !important;
+	bottom: 10px !important;
+}
+
+.mapbox-logo {
+	display: none;
+}

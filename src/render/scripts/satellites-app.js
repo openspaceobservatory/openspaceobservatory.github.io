@@ -4,7 +4,7 @@ var Profile = Backbone.Model.extend();
 
 var ProfileList = Backbone.Collection.extend({
     model: Profile,
-    url: 'http://www.keikreutler.cc/prox/data/satellites.geojson',
+    url: '/data/satellites.geojson',
     parse: function (response) {
       return response.features;
     }
