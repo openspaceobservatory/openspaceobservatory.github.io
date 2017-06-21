@@ -64,6 +64,8 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"
 				"/scripts/satellites-app.js"
 				"/scripts/satellites-map.js"
+				"/scripts/astrologies-app.js"
+				"/scripts/astrologies-map.js"
 			]
 
 		# -----------------------------

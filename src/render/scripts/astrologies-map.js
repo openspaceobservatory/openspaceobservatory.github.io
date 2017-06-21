@@ -1,5 +1,5 @@
-L.mapbox.accessToken = 'pk.eyJ1IjoiZ2FtZXJhIiwiYSI6IjNlclVnZDAifQ.a8PjkEfE5i2aOShPawCy1A';
-var map = L.mapbox.map('map', 'keikreutler.jlnok7cl', {
+L.mapbox.accessToken = 'pk.eyJ1Ijoia2Vpa3JldXRsZXIiLCJhIjoiMWRKNGkwTSJ9.6fwMqvOqGXqAJeH-yF__DQ';
+var map = L.mapbox.map('map-astrology', '', {
     zoomControl: false,
     minZoom: 1,
     tileLayer: {
@@ -8,7 +8,7 @@ var map = L.mapbox.map('map', 'keikreutler.jlnok7cl', {
         // this option disables loading tiles outside of the world bounds.
         noWrap: true
     }
-}).setView([ 40.094, 11.338], 2);
+}).setView([ 40.094, 11.338], 1);
 
 map.scrollWheelZoom.disable();
 
@@ -62,7 +62,7 @@ LOAD MAP DATA
 
 /*** ASSIGN MARKER TYPES ***/
 
-$.getJSON("http://www.keikreutler.cc/prox/data/satellites.geojson", function(data) {
+$.getJSON("/data/satellites.geojson", function(data) {
     L.geoJson(data, {
         pointToLayer: function(feature, latlng) {
             if (feature.properties.Date == 'Fri Jun 26 00:00:00 GMT+01:00 2015') {
@@ -129,10 +129,10 @@ $.getJSON("http://www.keikreutler.cc/prox/data/satellites.geojson", function(dat
         });
     });
 
-function createPopUps(feature, featureLayer) {
+/*function createPopUps(feature, featureLayer) {
     featureLayer.bindPopup('<h1>' + feature.properties.Name + '</h1><p><a data-target="#' + feature.id +'" data-toggle="modal">INFLUENCE</a></p>');
     dates[feature.properties.Date].addLayer(featureLayer);
-}
+}*/
 
 constellations["Sun Oct 04 00:00:00 GMT+01:00 2015"].addLatLng([52.71, -65.18]);
 
@@ -144,55 +144,3 @@ jun262015.addTo(map);
 $("#akiras-chair").hide();
 $("#trine").hide();
 
-document.getElementById('jun262015').onclick = function() {
-    for (var key in dates) {
-        var value = dates[key];
-        map.removeLayer(value);
-    };
-    $("#trine").hide();
-    $("#akiras-chair").hide();
-    $("#spots-crown").show();
-    map.setView([ 40.094, 11.338], 2);
-    jun262015.addTo(map);
-}
-
-/*document.getElementById('jun262016').onclick = function() {
-    for (var key in dates) {
-        var value = dates[key];
-        map.removeLayer(value);
-    };
-    map.setView([ 40.094, 11.338], 1);
-    jun262016.addTo(map);
-}*/
-
-
-document.getElementById('oct042014').onclick = function() {
-    for (var key in dates) {
-        var value = dates[key];
-        map.removeLayer(value);
-    };
-    map.setView([54, 11], 3);
-    $("#spots-crown").hide();
-    $("#trine").hide();
-    $("#akiras-chair").show();
-    oct042014.addTo(map);
-}
-
-document.getElementById('oct042015').onclick = function() {
-    for (var key in dates) {
-        var value = dates[key];
-        map.removeLayer(value);
-    };
-    map.setView([45.324, 18.281], 2);
-    $("#spots-crown").hide();
-    $("#akiras-chair").hide();
-    $("#trine").show();
-    oct042015.addTo(map);
-}
-
-$(window).load(function(){
-    $("#filters div").click(function() {
-        $('div').removeClass('active');
-        $(this).addClass("active");
-    });
-});

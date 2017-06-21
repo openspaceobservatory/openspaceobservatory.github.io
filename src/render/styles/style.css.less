@@ -93,7 +93,7 @@ section {
 	margin: 0;
 	padding: 25px;
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 section.camo {
@@ -177,6 +177,9 @@ section.map-section {
 .portholes {
 	padding: 50px;
 	h1,h2,h3,h4,h5,h6 {
+		padding-top: 50px;
+		padding-bottom: 25px;
+		margin: 0;
 		text-align: center;
 	}
 	img {
@@ -186,5 +189,22 @@ section.map-section {
 		border-radius: 50%;
 		width: 250px;
 		max-width: 100%;
+	}
+	p {
+		color: #fff;
+	}
+	.small-viewport({
+		padding: 0;
+	});
+}
+
+.astrologies {
+	p {
+		color: #fff;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		margin-top: 50px;
+		margin-bottom: 25px;
+		padding: 0;
 	}
 }
