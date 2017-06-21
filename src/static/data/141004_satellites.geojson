@@ -1,0 +1,937 @@
+{  
+   "features":[  
+      {  
+         "id":13402,
+         "properties":{  
+            "Name":"IBEX",
+            "Launch Site":"--",
+            "Alternative Names":"None",
+            "Owner":"--",
+            "Category":"Assorted Bright",
+            "Launch Date":"--",
+            "Altitude":"165.9 km",
+            "NORAD ID number":13402,
+            "Latitude":"44.17 deg",
+            "Longitude":"7.39 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               7.39,
+               44.17
+            ]
+         }
+      },
+      {  
+         "id":39384,
+         "properties":{  
+            "Name":"KYSAT II",
+            "Launch Site":"--",
+            
+            "Alternative Names":"None",
+            "Owner":"--",
+            "Category":"CubeSats",
+            "Launch Date":"--",
+            "Altitude":"457.5 km",
+            "NORAD ID number":39384,
+            "Latitude":"38.44 deg",
+            "Longitude":"-10.69 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -10.69,
+               38.44
+            ]
+         }
+      },
+      {  
+         "id":39440,
+         "properties":{  
+            "Name":"IRIDIUM 63 [+]",
+            "Launch Site":"Dombarovskiy Launch Site, Russia",
+            
+            "Alternative Names":"None",
+            "Owner":"Argentina",
+            "Category":"CubeSats",
+            "Launch Date":"Thu Nov 21 00:00:00 GMT+00:00 2013",
+            "Altitude":"715.1 km",
+            "NORAD ID number":39440,
+            "Latitude":"63.7 deg",
+            "Longitude":"35.67 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               35.67,
+               63.7
+            ]
+         }
+      },
+      {  
+         "id":3669,
+         "properties":{  
+            "Name":"GOES 13",
+            "Launch Site":"Air Force Western Test Range, California, USA",
+            
+            "Alternative Names":"None",
+            "Owner":"Canada",
+            "Category":"Assorted Bright",
+            "Launch Date":"Wed Jan 29 00:00:00 GMT+01:00 1969",
+            "Altitude":"2998.8 km",
+            "NORAD ID number":3669,
+            "Latitude":"84.32 deg",
+            "Longitude":"-17.29 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -17.29,
+               84.32
+            ]
+         }
+      },
+      {  
+         "id":32784,
+         "properties":{  
+            "Name":"ISS (ZARYA)",
+            "Launch Site":"Satish Dhawan Space Centre, India (Formerly Sriharikota Launching Range)",
+            "Alternative Names":"None",
+            "Owner":"Canada",
+            "Category":"CubeSats",
+            "Launch Date":"Sun Apr 27 00:00:00 GMT+01:00 2008",
+            "Altitude":"630.5 km",
+            "NORAD ID number":32784,
+            "Latitude":"39.73 deg",
+            "Longitude":"26.46 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               26.46,
+               39.73
+            ]
+         }
+      },
+      {  
+         "id":24925,
+         "properties":{  
+            "Name":"SL-16 R/B",
+            "Launch Site":"Taiyuan Space Center, PRC",
+            
+            "Alternative Names":"None",
+            "Owner":"China",
+            "Category":"Communications",
+            "Launch Date":"Sun Aug 31 00:00:00 GMT+01:00 1997",
+            "Altitude":"624.6 km",
+            "NORAD ID number":24925,
+            "Latitude":"41.99 deg",
+            "Longitude":"24.43 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               24.43,
+               41.99
+            ]
+         }
+      },
+      {  
+         "id":2802,
+         "properties":{  
+            "Name":"DUMMY MASS 1 [-]",
+            "Launch Site":"Plesetsk Missile and Space Complex, Russia",
+            
+            "Alternative Names":"None",
+            "Owner":"CIS",
+            "Category":"Assorted Bright",
+            "Launch Date":"Sun May 14 00:00:00 GMT+01:00 1967",
+            "Altitude":"725 km",
+            "NORAD ID number":2802,
+            "Latitude":"72.98 deg",
+            "Longitude":"-18.41 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -18.41,
+               72.98
+            ]
+         }
+      },
+      {  
+         "id":4814,
+         "properties":{  
+            "Name":"ENVISAT",
+            "Launch Site":"Plesetsk Missile and Space Complex, Russia",
+            
+            "Alternative Names":"None",
+            "Owner":"CIS",
+            "Category":"Assorted Bright",
+            "Launch Date":"Thu Dec 17 00:00:00 GMT+01:00 1970",
+            "Altitude":"498.8 km",
+            "NORAD ID number":4814,
+            "Latitude":"62.61 deg",
+            "Longitude":"-3.12 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -3.12,
+               62.61
+            ]
+         }
+      },
+      {  
+         "id":33504,
+         "properties":{  
+            "Name":"HINODE (SOLAR-B)",
+            "Launch Site":"Plesetsk Missile and Space Complex, Russia",
+            
+            "Alternative Names":"None",
+            "Owner":"CIS",
+            "Category":"Assorted Bright",
+            "Launch Date":"Fri Jan 30 00:00:00 GMT+00:00 2009",
+            "Altitude":"548.9 km",
+            "NORAD ID number":33504,
+            "Latitude":"39.63 deg",
+            "Longitude":"14.73 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               14.73,
+               39.63
+            ]
+         }
+      },
+      {  
+         "id":8459,
+         "properties":{  
+            "Name":"IRIDIUM 14 [S]",
+            "Launch Site":"Plesetsk Missile and Space Complex, Russia",
+            
+            "Alternative Names":"None",
+            "Owner":"CIS",
+            "Category":"Assorted Bright",
+            "Launch Date":"Fri Nov 28 00:00:00 GMT+00:00 1975",
+            "Altitude":"769.9 km",
+            "NORAD ID number":8459,
+            "Latitude":"44.83 deg",
+            "Longitude":"-4.96 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -4.96,
+               44.83
+            ]
+         }
+      },
+      {  
+         "id":10114,
+         "properties":{  
+            "Name":"CUBEBUG-2 (LO-74)",
+            "Launch Site":"Tyuratam Missile and Space Center, Kazakhstan (Also known as Baikonur Cosmodrome)",
+            
+            "Alternative Names":"None",
+            "Owner":"CIS",
+            "Category":"Assorted Bright",
+            "Launch Date":"Tue Jun 28 00:00:00 GMT+01:00 1977",
+            "Altitude":"522.8 km",
+            "NORAD ID number":10114,
+            "Latitude":"57.92 deg",
+            "Longitude":"34.31 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               34.31,
+               57.92
+            ]
+         }
+      },
+      {  
+         "id":23405,
+         "properties":{  
+            "Name":"INTEGRAL",
+            "Launch Site":"Tyuratam Missile and Space Center, Kazakhstan (Also known as Baikonur Cosmodrome)",
+            
+            "Alternative Names":"None",
+            "Owner":"CIS",
+            "Category":"Assorted Bright",
+            "Launch Date":"Thu Nov 24 00:00:00 GMT+00:00 1994",
+            "Altitude":"851.4 km",
+            "NORAD ID number":23405,
+            "Latitude":"34.94 deg",
+            "Longitude":"4.96 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               4.96,
+               34.94
+            ]
+         }
+      },
+      {  
+         "id":27386,
+         "properties":{  
+            "Name":"CXO",
+            "Launch Site":"Europe\u0027s Spaceport, Kourou, French Guiana",
+            
+            "Alternative Names":"None",
+            "Owner":"ESA",
+            "Category":"Assorted Bright",
+            "Launch Date":"Fri Mar 01 00:00:00 GMT+00:00 2002",
+            "Altitude":"772.3 km",
+            "NORAD ID number":27386,
+            "Latitude":"75.57 deg",
+            "Longitude":"15.1 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               15.1,
+               75.57
+            ]
+         }
+      },
+      {  
+         "id":36037,
+         "properties":{  
+            "Name":"METEOSAT-10 (MSG-3)",
+            "Launch Site":"Plesetsk Missile and Space Complex, Russia",
+            
+            "Alternative Names":"PROJECT FOR ONBOARD AUTONOMY-2",
+            "Owner":"ESA",
+            "Category":"Engineering",
+            "Launch Date":"Mon Nov 02 00:00:00 GMT+00:00 2009",
+            "Altitude":"714 km",
+            "NORAD ID number":36037,
+            "Latitude":"39.75 deg",
+            "Longitude":"5.75 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               5.75,
+               39.75
+            ]
+         }
+      },
+      {  
+         "id":27540,
+         "properties":{  
+            "Name":"METOP-B",
+            "Launch Site":"Tyuratam Missile and Space Center, Kazakhstan (Also known as Baikonur Cosmodrome)",
+            
+            "Alternative Names":"None",
+            "Owner":"ESA",
+            "Category":"Scientific",
+            "Launch Date":"Wed Oct 16 00:00:00 GMT+01:00 2002",
+            "Altitude":"143428.1 km",
+            "NORAD ID number":27540,
+            "Latitude":"49.73 deg",
+            "Longitude":"-3.3 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -3.3,
+               49.73
+            ]
+         }
+      },
+      {  
+         "id":24932,
+         "properties":{  
+            "Name":"SL-8 R/B",
+            "Launch Site":"Europe\u0027s Spaceport, Kourou, French Guiana",
+            
+            "Alternative Names":"None",
+            "Owner":"EUMETSAT",
+            "Category":"Weather",
+            "Launch Date":"Mon Sep 01 00:00:00 GMT+01:00 1997",
+            "Altitude":"35800.7 km",
+            "NORAD ID number":24932,
+            "Latitude":"-7.93 deg",
+            "Longitude":"57.93 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               57.93,
+               -7.93
+            ]
+         }
+      },
+      {  
+         "id":38552,
+         "properties":{  
+            "Name":"WNISAT-1",
+            "Launch Site":"Europe\u0027s Spaceport, Kourou, French Guiana",
+            
+            "Alternative Names":"None",
+            "Owner":"EUMETSAT",
+            "Category":"Weather",
+            "Launch Date":"Wed Jul 04 00:00:00 GMT+01:00 2012",
+            "Altitude":"35790.4 km",
+            "NORAD ID number":38552,
+            "Latitude":"0.41 deg",
+            "Longitude":"0.02 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               0.02,
+               0.41
+            ]
+         }
+      },
+      {  
+         "id":38771,
+         "properties":{  
+            "Name":"SL-8 R/B",
+            "Launch Site":"Tyuratam Missile and Space Center, Kazakhstan (Also known as Baikonur Cosmodrome)",
+            
+            "Alternative Names":"None",
+            "Owner":"EUMETSAT",
+            "Category":"Weather",
+            "Launch Date":"Sun Sep 16 00:00:00 GMT+01:00 2012",
+            "Altitude":"828 km",
+            "NORAD ID number":38771,
+            "Latitude":"68.12 deg",
+            "Longitude":"23.32 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               23.32,
+               68.12
+            ]
+         }
+      },
+      {  
+         "id":38771,
+         "properties":{  
+            "Name":"SUZAKU (ASTRO-EII)",
+            "Launch Site":"Tyuratam Missile and Space Center, Kazakhstan (Also known as Baikonur Cosmodrome)",
+            
+            "Alternative Names":"None",
+            "Owner":"EUMETSAT",
+            "Category":"Weather",
+            "Launch Date":"Sun Sep 16 00:00:00 GMT+01:00 2012",
+            "Altitude":"828 km",
+            "NORAD ID number":38771,
+            "Latitude":"68.12 deg",
+            "Longitude":"23.32 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               23.32,
+               68.12
+            ]
+         }
+      },
+      {  
+         "id":39136,
+         "properties":{  
+            "Name":"ISIS 1",
+            "Launch Site":"Tyuratam Missile and Space Center, Kazakhstan (Also known as Baikonur Cosmodrome)",
+            
+            "Alternative Names":"None",
+            "Owner":"Germany",
+            "Category":"CubeSats",
+            "Launch Date":"Thu Apr 18 00:00:00 GMT+01:00 2013",
+            "Altitude":"580.2 km",
+            "NORAD ID number":39136,
+            "Latitude":"58.01 deg",
+            "Longitude":"-6.8 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -6.8,
+               58.01
+            ]
+         }
+      },
+      {  
+         "id":25544,
+         "properties":{  
+            "Name":"BEESAT-2",
+            "Launch Site":"Tyuratam Missile and Space Center, Kazakhstan (Also known as Baikonur Cosmodrome)",
+            "Alternative Names":"None",
+            "Owner":"ISS",
+            "Category":"Space Stations",
+            "Launch Date":"Fri Nov 20 00:00:00 GMT+00:00 1998",
+            "Altitude":"404.3 km",
+            "NORAD ID number":25544,
+            "Latitude":"43.22 deg",
+            "Longitude":"14.95 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               14.95,
+               43.22
+            ]
+         }
+      },
+      {  
+         "id":22195,
+         "properties":{  
+            "Name":"LAGEOS 2",
+            "Launch Site":"Air Force Eastern Test Range, Florida, USA",
+            "Alternative Names":"None",
+            "Owner":"Italy",
+            "Category":"Geodetic",
+            "Launch Date":"Wed Oct 21 00:00:00 GMT+01:00 1992",
+            "Altitude":"5699.4 km",
+            "NORAD ID number":22195,
+            "Latitude":"2.57 deg",
+            "Longitude":"-24.84 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -24.84,
+               2.57
+            ]
+         }
+      },
+      {  
+         "id":39423,
+         "properties":{  
+            "Name":"IRIDIUM 62 [+]",
+            "Launch Site":"Dombarovskiy Launch Site, Russia",
+            
+            "Alternative Names":"None",
+            "Owner":"Japan",
+            "Category":"CubeSats",
+            "Launch Date":"Thu Nov 21 00:00:00 GMT+00:00 2013",
+            "Altitude":"820.8 km",
+            "NORAD ID number":39423,
+            "Latitude":"59.09 deg",
+            "Longitude":"27.98 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               27.98,
+               59.09
+            ]
+         }
+      },
+      {  
+         "id":32791,
+         "properties":{  
+            "Name":"IRIDIUM 73 [-]",
+            "Launch Site":"Satish Dhawan Space Centre, India (Formerly Sriharikota Launching Range)",
+            
+            "Alternative Names":"None",
+            "Owner":"Japan",
+            "Category":"CubeSats",
+            "Launch Date":"Sun Apr 27 00:00:00 GMT+01:00 2008",
+            "Altitude":"618.2 km",
+            "NORAD ID number":32791,
+            "Latitude":"64.38 deg",
+            "Longitude":"19.92 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               19.92,
+               64.38
+            ]
+         }
+      },
+      {  
+         "id":28773,
+         "properties":{  
+            "Name":"IRIDIUM 23 [S]",
+            "Launch Site":"Uchinoura Space Center (Fomerly Kagoshima Space Center-University of Tokyo, Japan)",
+            
+            "Alternative Names":"ASTRO-E2",
+            "Owner":"Japan",
+            "Category":"Assorted Bright",
+            "Launch Date":"Sat Jul 09 00:00:00 GMT+01:00 2005",
+            "Altitude":"546.2 km",
+            "NORAD ID number":28773,
+            "Latitude":"31.3 deg",
+            "Longitude":"-11.56 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -11.56,
+               31.3
+            ]
+         }
+      },
+      {  
+         "id":29479,
+         "properties":{  
+            "Name":"OBJECT FN",
+            "Launch Site":"Uchinoura Space Center (Fomerly Kagoshima Space Center-University of Tokyo, Japan)",
+            
+            "Alternative Names":"None",
+            "Owner":"Japan",
+            "Category":"Scientific",
+            "Launch Date":"Thu Sep 21 00:00:00 GMT+01:00 2006",
+            "Altitude":"677.4 km",
+            "NORAD ID number":29479,
+            "Latitude":"41.72 deg",
+            "Longitude":"-22.33 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -22.33,
+               41.72
+            ]
+         }
+      },
+      {  
+         "id":28773,
+         "properties":{  
+            "Name":"ODIN",
+            "Launch Site":"Uchinoura Space Center (Fomerly Kagoshima Space Center-University of Tokyo, Japan)",
+            
+            "Alternative Names":"ASTRO-E2",
+            "Owner":"Japan",
+            "Category":"Scientific",
+            "Launch Date":"Sat Jul 09 00:00:00 GMT+01:00 2005",
+            "Altitude":"546.2 km",
+            "NORAD ID number":28773,
+            "Latitude":"31.3 deg",
+            "Longitude":"-11.56 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -11.56,
+               31.3
+            ]
+         }
+      },
+      {  
+         "id":26702,
+         "properties":{  
+            "Name":"NTS (CANX-6)",
+            "Launch Site":"Svobodnyy Launch Complex, Russia",
+            
+            "Alternative Names":"None",
+            "Owner":"Sweden",
+            "Category":"Scientific",
+            "Launch Date":"Tue Feb 20 00:00:00 GMT+00:00 2001",
+            "Altitude":"569.2 km",
+            "NORAD ID number":26702,
+            "Latitude":"45.93 deg",
+            "Longitude":"-9.26 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -9.26,
+               45.93
+            ]
+         }
+      },
+      {  
+         "id":25867,
+         "properties":{  
+            "Name":"METEOSAT-7",
+            "Launch Site":"Air Force Eastern Test Range, Florida, USA",
+            
+            "Alternative Names":"None",
+            "Owner":"U.S.",
+            "Category":"Scientific",
+            "Launch Date":"Thu Jul 22 00:00:00 GMT+01:00 1999",
+            "Altitude":"137831 km",
+            "NORAD ID number":25867,
+            "Latitude":"75.73 deg",
+            "Longitude":"140.68 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               140.68,
+               75.73
+            ]
+         }
+      },
+      {  
+         "id":29155,
+         "properties":{  
+            "Name":"SUZAKU (ASTRO-EII)",
+            "Launch Site":"Air Force Eastern Test Range, Florida, USA",
+            
+            "Alternative Names":"None",
+            "Owner":"U.S.",
+            "Category":"Weather",
+            "Launch Date":"Tue May 23 00:00:00 GMT+01:00 2006",
+            "Altitude":"35790.4 km",
+            "NORAD ID number":29155,
+            "Latitude":"0.04 deg",
+            "Longitude":"-74.53 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.53,
+               0.04
+            ]
+         }
+      },
+      {  
+         "id":24906,
+         "properties":{  
+            "Name":"PROBA-2",
+            "Launch Site":"Air Force Western Test Range, California, USA",
+            
+            "Alternative Names":"None",
+            "Owner":"U.S.",
+            "Category":"Communications",
+            "Launch Date":"Wed Aug 20 00:00:00 GMT+01:00 1997",
+            "Altitude":"783.7 km",
+            "NORAD ID number":24906,
+            "Latitude":"48.46 deg",
+            "Longitude":"21.38 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               21.38,
+               48.46
+            ]
+         }
+      },
+      {  
+         "id":25344,
+         "properties":{  
+            "Name":"SEEDS II (CO-66)",
+            "Launch Site":"Air Force Western Test Range, California, USA",
+            
+            "Alternative Names":"None",
+            "Owner":"U.S.",
+            "Category":"Communications",
+            "Launch Date":"Sat May 16 00:00:00 GMT+01:00 1998",
+            "Altitude":"736.2 km",
+            "NORAD ID number":25344,
+            "Latitude":"72.54 deg",
+            "Longitude":"-19.32 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -19.32,
+               72.54
+            ]
+         }
+      },
+      {  
+         "id":8820,
+         "properties":{  
+            "Name":"LAGEOS 1",
+            "Launch Site":"Air Force Western Test Range, California, USA",
+            
+            "Alternative Names":"None",
+            "Owner":"U.S.",
+            "Category":"Geodetic",
+            "Launch Date":"Mon May 03 00:00:00 GMT+01:00 1976",
+            "Altitude":"5848.8 km",
+            "NORAD ID number":8820,
+            "Latitude":"21.21 deg",
+            "Longitude":"53.16 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               53.16,
+               21.21
+            ]
+         }
+      },
+      {  
+         "id":25777,
+         "properties":{  
+            "Name":"SL-3 R/B",
+            "Launch Site":"Taiyuan Space Center, PRC",
+            
+            "Alternative Names":"None",
+            "Owner":"U.S.",
+            "Category":"Communications",
+            "Launch Date":"Thu Jun 10 00:00:00 GMT+01:00 1999",
+            "Altitude":"784 km",
+            "NORAD ID number":25777,
+            "Latitude":"33.48 deg",
+            "Longitude":"-11.74 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -11.74,
+               33.48
+            ]
+         }
+      },
+      {  
+         "id":40422,
+         "properties":{  
+            "Name":"COSMOS 1400",
+            "Launch Site":"Tyuratam Missile and Space Center, Kazakhstan (Also known as Baikonur Cosmodrome)",
+            
+            "Alternative Names":"None",
+            "Owner":"U.S.",
+            "Category":"Assorted Bright",
+            "Launch Date":"Fri Nov 20 00:00:00 GMT+00:00 1998",
+            "Altitude":"376.3 km",
+            "NORAD ID number":40422,
+            "Latitude":"36.15 deg",
+            "Longitude":"-12.85 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -12.85,
+               36.15
+            ]
+         }
+      },
+      {  
+         "id":25285,
+         "properties":{  
+            "Name":"PROMETHEUS 1-2",
+            "Launch Site":"Tyuratam Missile and Space Center, Kazakhstan (Also known as Baikonur Cosmodrome)",
+            
+            "Alternative Names":"None",
+            "Owner":"U.S.",
+            "Category":"Communications",
+            "Launch Date":"Mon Apr 06 00:00:00 GMT+01:00 1998",
+            "Altitude":"783.4 km",
+            "NORAD ID number":25285,
+            "Latitude":"66.02 deg",
+            "Longitude":"-6.01 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -6.01,
+               66.02
+            ]
+         }
+      },
+      {  
+         "id":25286,
+         "properties":{  
+            "Name":"SL-3 R/B",
+            "Launch Site":"Tyuratam Missile and Space Center, Kazakhstan (Also known as Baikonur Cosmodrome)",
+            
+            "Alternative Names":"None",
+            "Owner":"U.S.",
+            "Category":"Communications",
+            "Launch Date":"Mon Apr 06 00:00:00 GMT+01:00 1998",
+            "Altitude":"784 km",
+            "NORAD ID number":25286,
+            "Latitude":"35.4 deg",
+            "Longitude":"-11.3 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -11.3,
+               35.4
+            ]
+         }
+      },
+      {  
+         "id":33401,
+         "properties":{  
+            "Name":"METOP-B",
+            "Launch Site":"US Army Kwajalein Atoll (USAKA)",
+            
+            "Alternative Names":"None",
+            "Owner":"U.S.",
+            "Category":"Scientific",
+            "Launch Date":"Sat Oct 18 00:00:00 GMT+01:00 2008",
+            "Altitude":"209919.7 km",
+            "NORAD ID number":33401,
+            "Latitude":"4.78 deg",
+            "Longitude":"-17.95 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -17.95,
+               4.78
+            ]
+         }
+      },
+      {  
+         "id":39391,
+         "properties":{  
+            "Name":"KORONAS-FOTON",
+            "Launch Site":"Wallops Island, Virginia, USA",
+            
+            "Alternative Names":"None",
+            "Owner":"U.S.",
+            "Category":"CubeSats",
+            "Launch Date":"Wed Nov 20 00:00:00 GMT+00:00 2013",
+            "Altitude":"478.9 km",
+            "NORAD ID number":39391,
+            "Latitude":"37.42 deg",
+            "Longitude":"5.85 deg"
+         },
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               5.85,
+               37.42
+            ]
+         }
+      }
+   ],
+   "type":"FeatureCollection"
+}
