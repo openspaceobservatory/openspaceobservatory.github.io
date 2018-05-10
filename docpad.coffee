@@ -40,10 +40,10 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-				"http://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css"
-				"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-				"//fonts.googleapis.com/css?family=Rakkas|Lato"
+				"https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+				"https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css"
+				"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+				"https://fonts.googleapis.com/css?family=Rakkas|Lato"
 				"/styles/style.css"
 				"/styles/custom.css"
 			]
@@ -51,17 +51,17 @@ docpadConfig = {
 
 			# Scripts
 			scripts: [
-				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"
+				"https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+				"https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
+				"https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"
 				"/scripts/bootstrap-custom.js"
 				"/scripts/modal.js"
 				"/scripts/markdown.js"
-				"//api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js"
+				"https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js"
 				"/scripts/leaflet-label.js"
-				"//api.trello.com/1/client.js?key=31eb16d37ff9dea5bf8ec1b33e438a55"
-				"//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"
-				"//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"
+				"https://api.trello.com/1/client.js?key=31eb16d37ff9dea5bf8ec1b33e438a55"
+				"https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"
+				"https:/cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"
 				"/scripts/satellites-app.js"
 				"/scripts/satellites-map.js"
 				"/scripts/astrologies-app.js"
