@@ -1,0 +1,13 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+.medium-viewport(@rules) {
+	@media screen and (max-width: 991px) {
+		@rules();
+	}
+}
+.small-viewport(@rules) {
+	@media screen and (max-width: 767px) {
+		@rules();
+	}
+}

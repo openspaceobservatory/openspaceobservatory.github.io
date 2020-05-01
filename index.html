@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		 More info: h5bp.com/i/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<!-- Our site title and description -->
+	<title>Open Space Observatory</title>
+	<meta name="description" content="Gatherings and infrastructure for the observation of satellites, spacecraft and space junk." />
+	<meta name="keywords" content="open source, astronomy, satellites, observatory, meetup, space technology, space exploration" />
+	<meta name="author" content="OSO" />
+
+	<!-- Output DocPad produced meta elements -->
+	<meta name="generator" content="DocPad v6.79.4" />
+
+	<!-- Mobile viewport optimized: h5bp.com/viewport -->
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- Icons -->
+		<link rel="shortcut icon" href="images/icons/favicon.png">
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-70079317-2', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Shims: IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Styles -->
+	<link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" /><link  rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css" /><link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" /><link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rakkas|Lato" /><link  rel="stylesheet" href="/styles/style.css" /><link  rel="stylesheet" href="/styles/custom.css" />
+</head>
+<body>
+
+	<section class="light oso screen-height">
+	<h1 class="header-serif">OSO</h1>
+</section>
+
+<section class="screen-height">
+	<div class="parent">
+		<div class="header-sans parent-element">
+			The Open Space Observatory is an initiative for gatherings and infrastructure for the observation of satellites, spacecraft, and space junk.
+		</div>
+	</div>
+</section>
+
+<div class="feature">
+	<div class="header-2-serif">
+		Join Our Newsletter
+	</div>
+	<!--<p>
+		A monthly chronicle of strange space weather and upcoming events from the Open Space Observatory.
+	</p>
+	img class="logo" src="/images/logo.png">-->
+
+	<iframe src="https://spaceweather.substack.com/embed" width="480" height="320" style="border:0px solid #EEE; background:#222; color:#fff;" frameborder="0" scrolling="no"></iframe>
+
+
+	<!--<form action="https://tinyletter.com/openspaceobservatory" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/openspaceobservatory', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+		<p>
+			<input type="text" style="width:140px" name="email" id="tlemail" />
+		</p>
+		<input type="hidden" value="1" name="embed"/>
+		<input class="btn button" type="submit" value="Subscribe" />
+	</form>-->
+</div>
+
+<section class="map-section screen-height">
+	<div class="header-sans overlay">
+		<span>
+		We map and catalogue background information on satellites overhead.
+		</span>
+	</div>
+
+	<div class="row">
+		<div id="map" class="satellites">
+		</div>
+	</div>
+
+	</div>
+</section>
+
+<div id="modals"></div>
+
+<section class="screen-height">
+	<div class="header-sans link-white">
+		Working with the <a href="http://libre.space" target="_blank">Libre Space Foundation</a> and collaborators, the OSO embeds civic space technology in public settings, with featured projects below.
+	</div>
+	<div class="container portholes link-white">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<img src="/images/satnogs.jpg">
+				<h4>SatNOGS</h4>
+				<p>
+					Developed by the <a href="http://www.libre.space/" target="_blank">Libre Space Foundation</a>, the <a href="http://www.satnogs.org/" target="_blank">SatNOGS</a> project encompasses a full stack of open technologies based on open standards for satellite communications, from the SatNOGS ground station to an <a href="http://www.db.satnogs.org/" target="_blank">online platform</a> for satellite data.
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<a href="https://rose.openspaceobservatory.org/">
+					<img src="/images/oso_03.jpg">
+				</a>
+				<h4>ROSE</h4>
+				<p>
+					The Open Space Observatory installation, titled <a href="https://rose.openspaceobservatory.org/">ROSE</a>, for <a href="https://www.vam.ac.uk/exhibitions/the-future-starts-here" target="_blank">The Future Starts Here</a> at the Victora & Albert Museum, captured real-time data from the constellation of Low Earth orbit satellites tracked by the SatNOGS ground stations—a decentralized window into critical and newly accessible infrastructure.
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<a href="https://www.arcade-east.com/programme/a-toolkit-for-the-future-satellogy-a-map-for-future-use/">
+					<img src="/images/oso_05.jpg">
+				</a>
+				<h4>Satellogy</h4>
+				<p>
+					While we’ve read the position of the stars for centuries, satellites and their relation to one another has remained more opaque. The <a href="https://www.arcade-east.com/programme/a-toolkit-for-the-future-satellogy-a-map-for-future-use/" target="_blank">Satellogy workshops</a> explore methodologies to read the history behind satellites, writing speculative fictions and producing a collaborative wiki of satellite constellations and their rumored origins.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="camo screen-height">
+	<div class="header-sans link-white">
+		And finally, we propose alternative narratives of satellites, through speculative design&#8212;
+	</div>
+</section>
+
+<section class="light screen-height">
+	<div class="header-sans link-white">
+		&#8212;and machine constellations.
+	</div>
+	<div class="container portholes link-white">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div id="map-astrology-1" class="map-astrologies">
+				</div>
+				<h4>
+					4 October 2014 7:28:00 GMT
+				</h4>
+
+				<h3>
+					Akira's Butterfly Chair
+				</h3>
+
+				<p>
+					This constellation of satellites appears twice yearly over the Northern Isles.
+				</p>
+				<p>
+					Resembling a Butterfly Chair, observers noted how the the design from 1938 seems to be strained, or not equipped for its circumstance, but that new, evolutionary understandings may come from it.
+				</p>
+				<h3>
+					Aspects
+				</h3>
+				<p>
+					METEOSAT-7, -7.4, 58.01	in Aquarius<br>
+					GOES 13, 0.04, -74.53 in Virgo<br>
+					HINODE (SOLAR-B), 41.72, -22.33, Libra<br>
+					KORONAS-FOTON, 39.63, 14.73, Aquarius<br>
+					PROBA-2, 39.75, 5.75, Capricorn
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div id="map-astrology-2" class="map-astrologies">
+				</div>
+				<h4>
+					26 June 2017 7:28:00 GMT
+				</h4>
+
+				<h3>
+					Spot's Crown
+				</h3>
+
+				<p>
+					Denoting the crown, or head, of Spot&#8212;the robot developed by MIT and BigDog industries as a pack mule for military purposes&#8212;this constellation centres over the United Kingdom only once every five years.
+				</p>
+				<p>
+					It wasn't until 2014, when robotic industries started sponsoring annual drawing competitions for children to imagine their own robots, that Spot became fully skinned, or clothed, and Cyngus enveloped the Integral satellite, giving the constellation its name.
+				<h3>
+					Aspects
+				</h3>
+				<p>
+					RHESSI, 38.03, 6.38 in Hydra<br>
+					INTEGRAL, 53.21, 120.71 in Cyngus<br>
+					GENESIS 2, 43.76, -10.69 in Sextans<br>
+					RBSP B, -0.99, -27.56 in Virgo<br>
+					AIST-2,	63.45, -37.68 in Taurus<br>
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div id="map-astrology-3" class="map-astrologies">
+				</div>
+				<h4>
+					4 October 2017 7:28:00 GMT
+				</h4>
+
+				<h3>
+					IBEX Trine PICARD
+				</h3>
+				<p>
+					<em>
+						Add your description in the <a href="https://github.com/openspaceobservatory/openspaceobservatory.github.io/wiki">constellation wiki here </a>.
+					</em>
+				</p>
+				<h3>
+					Aspects
+				</h3>
+				<p>
+					AJISAI (EGS), 32.51, 28.02 in Aquarius<br>
+					METEOSAT-7, -8.11, 56.15 in Aquarius<br>
+					1998-067GD, 46.72, 8.79 in Aquarius<br>
+					FLOCK-1B FR, 50.06, 19.49 in Pisces<br>
+					CLUSTER II-FM5 (RUMBA), -19.78, 55.05 in Aquarius<br>
+					ENVISAT, 46.04, 36.02 in Pisces<br>
+					IBEX, -10.03, 41.42 in Aquarius<br>
+					STPSAT-3, 40.49, 9.6 in Capricorn<br>
+					VELOX-PII, 54.88, 31.81 in Aries<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="camo screen-height about link-white">
+	<!--<div class="header-sans">
+	The OSO is a distributed project with a range of contributors.
+	</div>
+	<p>
+		With projects like Copenhagen Suborbitals and SatNOGS, the futures of satellites can be differently distributed. Drawing from traditions of the Chaldeans, Association of Autonomous Astronauts and astronomy clubs, OSO looks toward building a satellite skywatch and a way to come together—bringing out infrastructure for observation to distant fields and connecting unlikely locations. Initiated by <a href="http://keikreutler.cc" target="_blank">Kei Kreutler</a> in 2015, the initiative includes supporting the development of open source hardware and software for space observation and the design of a modular observatory.
+	</p>-->
+</section>
+
+<div class="feature link-white">
+	<div class="header-2-serif">
+		Make Contact
+	</div>
+	<img class="logo" src="/images/logo.png">
+	<p>
+		To learn more about the OSO's aims, check out our <a href="https://github.com/openspaceobservatory/openspaceobservatory.github.io/wiki">wiki</a> on Github.
+	</p>
+	<p>
+		Follow us on Twitter <a href="http://twitter.com/osobservatory">@OSObservatory</a>.
+	</p>
+	<p>
+		To get involved, email us at <a href="mailto:contact@openspaceobservatory.org">contact@openspaceobservatory.org</a>.
+	</p>
+</div>
+
+<!-- Modals -->
+<script id="participantModalTpl" type="text/template">
+<div id="<%- id %>" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h1><%- properties.Name %></h1>
+			<% if (properties.Image !== "") { %>
+				<img src="../images/satellites/<%= properties.Image %>">
+			<% } %>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-8" id="<%- properties.Regex %>">
+
+					</div>
+					<div class="col-lg-4">
+						<p><strong>Type</strong><br>
+							<%- properties.Category %>
+						</p>
+						<p><strong>Owner</strong><br>
+						<%- properties.Owner %>
+						</p>
+						<p><strong>Launch Site</strong><br>
+							<%- properties["Launch Site"] %>
+						</p>
+						<p><strong>Launch Date</strong><br>
+							<%- properties["Launch Date"] %>
+						</p>
+						<p><strong>NORAD ID Number</strong><br>
+							<%- properties["NORAD ID number"] %>
+						</p>
+						<p><strong>Alternative Names</strong><br>
+							<%- properties["Alternative Names"] %>
+						</p>
+						<p><strong>Altitude</strong><br>
+							<%- properties["Altitude"] %>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</script>
+
+
+<div id="modals-astrology"></div>
+
+	<!-- Scripts -->
+	<script defer="defer"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script defer="defer"  src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script><script defer="defer"  src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script><script defer="defer"  src="/scripts/bootstrap-custom.js"></script><script defer="defer"  src="/scripts/modal.js"></script><script defer="defer"  src="/scripts/markdown.js"></script><script defer="defer"  src="https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js"></script><script defer="defer"  src="/scripts/leaflet-label.js"></script><script defer="defer"  src="https://api.trello.com/1/client.js?key=31eb16d37ff9dea5bf8ec1b33e438a55"></script><script defer="defer"  src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script><script defer="defer"  src="https:/cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script><script defer="defer"  src="/scripts/satellites-app.js"></script><script defer="defer"  src="/scripts/satellites-map.js"></script><script defer="defer"  src="/scripts/astrologies-app.js"></script><script defer="defer"  src="/scripts/astrologies-map.js"></script>
+</body>
+</html>

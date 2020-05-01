@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Open Space Observatory</title>
+	<link href="http://openspaceobservatory.org/atom.xml" rel="self"/>
+	<link href="http://openspaceobservatory.org"/>
+	<updated>2020-05-01T13:06:28.980Z</updated>
+	<id>http://openspaceobservatory.org</id>
+	<author>
+		<name>OSO</name>
+		<email>contact@openspaceobservatory.org</email>
+	</author>
+
+	
+</feed>
